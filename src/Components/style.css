@@ -1,0 +1,128 @@
+.bottom {
+  height: 50px;
+  margin: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.carddiv {
+  padding: 20px;
+  height: 550px;
+  margin: 10px;
+  width: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.icon_rt {
+  float: left;
+}
+.titlespan {
+  margin-right: 5px;
+  font-size: 0.9em;
+}
+.missonspan {
+  font-weight: bolder;
+}
+.xspan {
+  color: gray;
+  font-size: 0.7em;
+}
+.maintext {
+  color: rgb(14, 51, 131);
+}
+.dfooter {
+  font-size: 0.8em;
+}
+.dfooter .dcontainer {
+  padding-left: 0px;
+}
+.dfooter h6 {
+  font-weight: 1.5em;
+  font-weight: bolder;
+}
+.dfooter li {
+  list-style: none;
+  margin-bottom: 4rem;
+}
+.dflex {
+  display: flex;
+}
+.scdrow {
+  background-color: #f0f0f0;
+  padding: 5rem;
+  font-size: 1.5em;
+}
+.scdrow img {
+  margin-left: 20%;
+}
+.dflex > div {
+  background-color: #f0f0f0;
+  margin: 1px;
+  padding: 20px;
+  color: rgb(82, 80, 80);
+}
+.updatesdiv {
+  box-sizing: border-box;
+  background-color: white !important;
+  padding: 50px !important;
+  padding-top: 15px !important;
+}
+.text-subscribe {
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+.dcontent h1 {
+  margin: 20px;
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+  margin-left: 20%;
+}
+.dheader {
+  height: 700px;
+  background-image: url("./assets/spacex.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25px;
+}
+
+.dlaunch h1 {
+  text-align: center;
+  margin: 20px;
+}
+.dlaunch {
+  margin-bottom: 30px;
+}
+.dnav {
+  font-size: 1.2em;
+  color: white;
+}
+
+.dnav a {
+  color: white;
+  font-weight: bolder;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 5px;
+}
+.dnav a:not(:last-child) {
+  border-right: 2px solid rgb(223, 218, 218);
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-device-width: 600px) {
+  .dheader {
+    background: none;
+    height: auto;
+  }
+  .dflex {
+    display: block;
+  }
+  .wrapper {
+    text-align: center;
+  }
+  .scdrow img {
+    margin-left: 1%;
+  }
+}
