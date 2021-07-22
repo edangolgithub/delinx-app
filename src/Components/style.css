@@ -78,13 +78,30 @@
   margin-left: 20%;
 }
 .dheader {
-  height: 700px;
-  background-image: url("./assets/spacex.jpg");
+  
+  /* background-image: url("./assets/spacex.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   padding: 25px;
 }
+.dheader video{
+  width: 100%;
+  height: auto;
+ 
+}
+.dheader img
+{
+  position: absolute;
+  top:50px;
+  left:70px;
 
+}
+.dheader nav
+{
+  position: absolute;
+  top:50px;
+  right:70px;
+}
 .dlaunch h1 {
   text-align: center;
   margin: 20px;
@@ -110,7 +127,6 @@
 }
 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-device-width: 600px) {
   .dheader {
     background: none;
