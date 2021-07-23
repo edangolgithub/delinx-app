@@ -56,7 +56,7 @@ export default function GData() {
               <span className="xspan"> {launch.rocket.rocket_name}</span>
             </Card.Title>
             <Card.Text>
-            <span className="maintext">{launch.details.substr(0, 105)}</span>
+              <span className="maintext">{launch.details.substr(0, 105)}</span>
             </Card.Text>
 
             <div className="bottom">
